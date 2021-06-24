@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+    position: relative;
+}
+
+#logo img{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    
+}
+
+#landing {
+    background: #Fc7a69;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 20px;
+}
+
+
+.profCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: left;
+    margin: auto;
+    width: 50%;
+    padding: 30px 50px 15px 50px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+ 
+ .a{
+    padding-top: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+ }
+ 
+ .b{
+    padding-bottom: 40px;
+    font-size: 12px;
+ }
+ 
+ .c{
+    padding-bottom: 0px;
+    font-size: 8px;
+ }
+
+.profCard img {
+    height: 50px;
+    border-radius: 4px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    #landing {
+        padding: 80px 20px;
+    }
+    .profCard {
+        width: 90%;
+        padding: 20px;
+    }
+    .profCard img {
+        height: 200px;
+    }
+    
+}
